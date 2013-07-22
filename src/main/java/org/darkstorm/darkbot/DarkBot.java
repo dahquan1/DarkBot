@@ -104,6 +104,8 @@ public final class DarkBot {
 	}
 
 	public Bot[] getBots() {
+		int test = 0;
+		
 		synchronized(bots) {
 			return bots.toArray(new Bot[bots.size()]);
 		}
